@@ -1,0 +1,58 @@
+/*--------head------------*/
+.head {
+  padding: 20px 0;
+  color: #94070c;
+}
+.logo h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/*--------header------------*/
+
+header .nav {
+  display: flex !important;
+}
+
+/*--------header------------*/
+@media screen and (max-width: 768px) {
+  .start {
+    clip-path: none;
+  }
+  header {
+    margin: 0;
+    background-color: #94070c;
+    position: relative;
+  }
+  header ul.flexSB {
+    display: none;
+  }
+}
+
+.search-bar {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.search-bar input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 80%;
+}
+
+.search-bar button {
+  margin-bottom: 30px;
+  background-color: #94070c;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 13px 30px;
+}
